@@ -22,11 +22,6 @@ const products = [
     price: 1000,
   },
 ];
-console.log(products)
-// for (const objectKey in products) {
-//       products[objectKey] = products[objectKey]*0.85;
-//   }
-//   console.log(products)
-products.forEach((price) => price*0.85);
-console.log(products)
-// Здесь пишем решение, данный комментарий необходимо стереть.
+products.forEach((products) => (products.price = products.price * 0.85));
+console.log(products);
+
