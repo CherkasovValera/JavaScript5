@@ -8,25 +8,25 @@
 Если сложно работать с методами массива, то можно сделать и обычным циклом.
 */
 
-// const products = [
-//   {
-//     id: 3,
-//     price: 200,
-//   },
-//   {
-//     id: 4,
-//     price: 900,
-//   },
-//   {
-//     id: 1,
-//     price: 1000,
-//   },
-// ];
-// console.log(products)
+const products = [
+  {
+    id: 3,
+    price: 200,
+  },
+  {
+    id: 4,
+    price: 900,
+  },
+  {
+    id: 1,
+    price: 1000,
+  },
+];
+console.log(products)
 // for (const objectKey in products) {
 //       products[objectKey] = products[objectKey]*0.85;
 //   }
 //   console.log(products)
-// products.forEach((price) => price*0.85);
-// console.log(products)
+products.forEach((price) => price*0.85);
+console.log(products)
 // Здесь пишем решение, данный комментарий необходимо стереть.
